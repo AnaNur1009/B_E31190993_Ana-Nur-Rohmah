@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_new_product"
+            android:icon="@drawable/ic_newfood"
+            android:title="New Produk" />
+
+        <item
+            android:id="@+id/nav_popular_products"
+            android:icon="@drawable/ic_populer"
+            android:title="Popular Produk" />
+
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_options"
+            android:title="Menu Produk" />
+
+        <item
+            android:id="@+id/nav_my_order"
+            android:icon="@drawable/ic_check_list"
+            android:title="My Order" />
+
+        <item
+            android:id="@+id/nav_my_cart"
+            android:icon="@drawable/ic_my_cart"
+            android:title="My Cart" />
+    </group>
+
+
+</menu>
